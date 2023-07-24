@@ -23,7 +23,7 @@ const Portfolio = () => {
                 <h3>Hotstar UI</h3>
                 <p>This is Hotstar Ui app wher I use Firebse Login system</p>
                 <a
-                  href="https://github.com/vikash7379/TastyPoint-"
+                  href="https://hotstar-vikash.netlify.app/home"
                   target="_blank"
                 >
                   <i class="fas fa-external-link-alt"></i>
@@ -37,7 +37,7 @@ const Portfolio = () => {
                 <h3>XOlO</h3>
                 <p>XOLO a fashion website which are Ui rich Website</p>
                 <a
-                  href="https://covid-19-909.000webhostapp.com/"
+                  href="https://fashionstudio.netlify.app/"
                   target="_blank"
                 >
                   <i class="fas fa-external-link-alt"></i>
