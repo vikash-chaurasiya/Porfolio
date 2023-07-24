@@ -10,14 +10,14 @@ const Hero = () => {
   const textRef = useRef();
 
   useEffect(() => {
-    // init(textRef.current, {
-    //     backDelay:1500,
-    //     showCursor:true,
-    //     strings:[
-    //         ' Vikash Chaurasia',
-    //         ' a FrontEnd Web Developer'
-    //     ]
-    // })
+    init(textRef.current, {
+        backDelay:1500,
+        showCursor:true,
+        strings:[
+            ' Vikash Chaurasia',
+            ' a FrontEnd Web Developer'
+        ]
+    })
   }, []);
 
   return (
