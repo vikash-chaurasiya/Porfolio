@@ -42,7 +42,7 @@ const Hero = () => {
                   </a>
                   <br />
                   <br />
-                  <span className="skillsHeading">SKILLS</span> - <span className="skillsChild">React.Js | Next.Js | Redux | JavaScript | ES6 | HTML | CSS</span>
+                  <span className="skillsHeading">SKILLS</span> - <span className="skillsChild">React.Js | React Native | Next.Js | Redux | JavaScript | ES6 | HTML | CSS</span>
                 </p>
                 <div className="linkHero">
                   <div>

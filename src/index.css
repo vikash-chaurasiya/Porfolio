@@ -589,10 +589,34 @@ nav .fas {
 
   #about {
     height: 100%;
+    padding-block: 0;
+  }
+  .row{
+    margin-left: 0 !important;
   }
   .hero-section {
-    padding-top: 90px;
+    /* padding-top: 90px; */
     margin-bottom: 20px !important;
+  }
+  .linkHero{
+    margin-top: 2.5rem;
+    height: 3rem;
+  }
+  .hero-img{
+    width: 250px;
+    opacity: 0.7;
+    margin-inline: auto;
+    margin-top: 30px;
+  }
+  .skills-icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+  }
+  .hire-btn1{
+    padding: 5px !important;
   }
   .skills-icon {
     font-size: 48px;
@@ -608,6 +632,7 @@ nav .fas {
   }
   .service-main {
     height: 100%;
+    padding-block: 2rem;
   }
   .hamburger-menu {
     display: block;
@@ -649,6 +674,7 @@ nav .fas {
 
   .contact-left,
   .contact-right {
+    margin-bottom: 1rem;
     flex-basis: 100%;
   }
 }
