@@ -607,13 +607,22 @@ nav .fas {
     opacity: 0.7;
     margin-inline: auto;
     margin-top: 30px;
+    z-index: 1;
+  }
+  .skillsContainer{
+    position: relative;
+    width: 100%;
+    height:  13rem;
   }
   .skills-icon{
+    position: absolute;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
+    z-index: 99;
+    /* margin-left: auto; */
   }
   .hire-btn1{
     padding: 5px !important;
