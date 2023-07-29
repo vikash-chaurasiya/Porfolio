@@ -647,7 +647,6 @@ nav .fas {
   .mobile-menu-link {
     grid-column: 2/4;
     margin: 68px 40px 0 0px;
-    position: relative;
     z-index: 1;
     background-color: #132347;
     height: 17rem;
@@ -658,6 +657,8 @@ nav .fas {
     transition: all 0.5s linear;
     transform-origin: top;
     position: fixed;
+    top: 0;
+    left: 0;
   }
   .mobile-menu-link ul {
     /* width: 150px; */
